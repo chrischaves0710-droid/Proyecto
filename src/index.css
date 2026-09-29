@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv {
+    width: 790px;
+    max-width: calc(100% - 80px);
+
+    margin-top: 48px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+/* Línea superior */
+
+.line {
+    width: 100%;
+    height: 4px;
+
+    background-color: #202020;
+
+    border-radius: 2px;
+
+    margin-bottom: 28px;
+}
+
+/* Nombre */
+
+h1 {
+    margin: 0 0 13px 0;
+
+    font-size: 47px;
+    line-height: 1.1;
+
+    font-weight: 400;
+
+    color: #151515;
+}
+
+/* Puesto */
+
+h2 {
+    margin: 0 0 23px 0;
+
+    font-size: 23px;
+    font-weight: 500;
+
+    color: #28a745;
+}
+
+/* Información personal */
+
+.contact {
+    margin-bottom: 31px;
+}
+
+.contact p {
+    margin: 0;
+
+    font-size: 21px;
+    line-height: 1.52;
+}
+
+.contact a {
+    color: #181818;
+    text-decoration: none;
+}
+
+/* Secciones */
+
+section {
+    margin-bottom: 38px;
+}
+
+/* Skills, Education, Experience... */
+
+h3 {
+    margin: 0 0 12px 0;
+
+    font-size: 23px;
+    font-weight: 500;
+
+    color: #28a745;
+}
+
+/* Nombre de universidad, proyecto, etc */
+
+h4 {
+    margin: 0;
+
+    font-size: 24px;
+    line-height: 1.3;
+
+    font-weight: 500;
+
+    color: #0879ce;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 6px;
+
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.date {
+    margin: 1px 0 5px 0;
+
+    font-size: 21px;
+
+    color: #181818;
+}
+
+/* Cada bloque */
+
+.item {
+    margin-bottom: 29px;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-left: 28px;
+}
+
+li {
+    margin-bottom: 7px;
+
+    font-size: 20px;
+    line-height: 1.45;
+}
+
+/* Enlaces */
+
+a {
+    color: #0879ce;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Adaptación a celular */
+
+@media (max-width: 700px) {
+
+    .cv {
+        width: auto;
+        max-width: none;
+
+        margin: 30px 25px 60px 25px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2,
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p,
+    li,
+    .contact p,
+    .date {
+        font-size: 17px;
+    }
+}
